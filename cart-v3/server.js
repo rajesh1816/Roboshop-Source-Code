@@ -401,7 +401,7 @@ redisClient.on('ready', (r) => {
 });
 
 // fire it up!
-const port = process.env.CART_SERVER_PORT || '8080';
+const port = process.env.CART_SERVER_PORT || '8081';
 app.listen(port, () => {
     logger.info('Started on port', port);
 });
